@@ -29,7 +29,8 @@ html{
 }
 
 body{
-    background-image: url('/img/Nebula.jpg');
+    
+    background-image: url('/img/screen-display-device.com.jpg');
     background-size: cover;
 }
 
@@ -60,7 +61,7 @@ h1, h2, h3, h4, h5{
 
 a{
     color: var(--ext);
-    transition: var(--transition);
+    
     font-family: 'conf';
 }
 
@@ -99,7 +100,7 @@ img{
     color: #212B38;
 }
 
-/*--------card------*/
+/*--------start card------*/
 .card{
     background: var(--ext);
     padding: 1.5rem;
@@ -128,8 +129,8 @@ img{
     width: 90%;
     margin: 0 auto;
 }
-
-/*--- nav ---*/
+/*--------end card------*/
+/*--- start nav ---*/
 nav{
     height: 5rem;
     width: 100%;
@@ -160,10 +161,128 @@ nav{
 .nav-links li a{
     color: var(--ext);
     font-size: 17px;
-    transition: var(--transition);
+    
     text-decoration: none;
 }
 
-.nav-links li:hover{
+.nav-links li{
+    transition: var(--transition);
+}
+
+
+/*--- end nav ---*/
+/*--------start header------*/
+header{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    align-items: center;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: auto 450px;
+    align-items: center;
+    height: 100%;
+    padding-top: 2.5rem;
+    gap: 2%;
+    position: relative;
+}
+
+.header-container::after{
+    content: '';
+    width: 1000%;
+    right: -981%;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(149, 187, 180, 0.2);
+}
+
+.header-left h2{
+    margin: 1rem 0;
+}
+
+.typed-text{
+    background: var(--textColor);
+    border-bottom: 3px solid var(--secondary);
+}
+
+.header-left p{
+    font-size: 19px;
+    width: 94%;
+    margin: .5rem 0 2rem;
+}
+
+.header-right{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    
+}
+
+.hero-img{
+    position: absolute;
+    background: var(--primary);
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+
+.hero-img img{
+    position: relative;
+    top: .5rem;
+}
+
+/*---- start round moon img ----*/
+.round{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-color: var(--ext) transparent;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 4px 4px 0 0;
+    animation: RoundMoon infinite linear 10s;
+}
+
+@keyframes RoundMoon{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.moon{
+    width: 2rem;
+    height: 2rem;
+    background: var(--ext);
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    box-shadow: 0 0 1rem var(--secondary);
+}
+/*---- end round moon img ----*/
+
+.social-links{
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social-links a{
+    width: 2rem;
+    transition: var(--transition);
+}
+
+.social-links a:hover, .nav-links li:hover{
     transform: translateY(-.5rem);
 }
+/*--------end header------*/
