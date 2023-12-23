@@ -16,7 +16,7 @@
 }
 
 :root{
-    --primary: #212B38;
+    --primary: #212b38;
     --secondary: #37465B;
     --textColor: #08C6AB;
     --ext: #95bbb4;
@@ -134,7 +134,7 @@ img{
 /*--------end card------*/
 /*--- start nav ---*/
 nav{
-    height: 5rem;
+    height: 3rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -154,6 +154,9 @@ nav{
     display: none;
 }
 
+ul{
+    margin-bottom: 0;
+}
 .nav-links{
     display: flex;
     align-items: center;
@@ -169,6 +172,11 @@ nav{
 
 .nav-links li{
     transition: var(--transition);
+}
+
+.nav-scroll{
+    color: var(--primary);
+    background-color: rgba(33, 43, 56, 0.7);
 }
 
 
@@ -316,6 +324,11 @@ header{
 }
 
 /* skill */
+#skill{
+    background-color: rgba(33, 43, 56, 0.9);
+    
+}
+
 #skill h2{
     font-size: 3rem;
 }
@@ -350,39 +363,87 @@ header{
     background: var(--primary);
 }
 
+/* HTML */
 .progress:nth-child(1) .inner-row{
     width: 87%!important;
 }
+/* CSS */
 .progress:nth-child(2) .inner-row{
     width: 83%!important;
 }
+/* PHP */
 .progress:nth-child(3) .inner-row{
     width: 67%!important;
 }
+/* laravel */
 .progress:nth-child(4) .inner-row{
     width: 13%!important;
 }
+/* SQL */
 .progress:nth-child(5) .inner-row{
     width: 20%!important;
 }
+/* javascript */
 .progress:nth-child(6) .inner-row{
     width: 28%!important;
 }
+/* python */
 .progress:nth-child(7) .inner-row{
     width: 24%!important;
 }
+/* django */
 .progress:nth-child(8) .inner-row{
     width: 19%!important;
 }
+/* C++ */
 .progress:nth-child(9) .inner-row{
     width: 17%!important;
 }
+/* C# */
 .progress:nth-child(10) .inner-row{
     width: 13%!important;
 }
+/* java */
 .progress:nth-child(11) .inner-row{
     width: 13%!important;
 }
+/* wordpress */
 .progress:nth-child(12) .inner-row{
-    width: 43%!important;
+    width: 35%!important;
+}
+
+/* proyectos */
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.project{
+    color: var(--ext);
+    margin: 5px;
+}
+
+.project h4{
+    color: var(--ext);
+    margin: 1em;
+}
+
+.project img{
+    border-radius: .8rem;
+}
+
+.h2_color{
+    color: var(--ext);
+}
+
+/* footer */
+footer{
+    background-color: rgba(33, 43, 56);
+    color: var(--ext);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
