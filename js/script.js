@@ -14,3 +14,10 @@ let typed = new Typed('.typed-text', {
     fadeOut: true,
     loop: true
   });
+
+  let menuBar = document.querySelector('.menu_bar');
+  let btn_menu = document.querySelector('.menu-button');
+
+  btn_menu.addEventListener('click', ()=>{
+    
+  })
