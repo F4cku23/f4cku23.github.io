@@ -33,7 +33,8 @@ body{
     background-image: url('/img/screen-display-device.com.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right top;
+    background-position: cover;
+    
 }
 
 h1{
