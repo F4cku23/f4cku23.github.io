@@ -14,7 +14,12 @@
     outline: none;
     font-family: 'conf';
 }
-
+.cerrar{
+    display:none;    
+}
+.abrir{
+    display:none;
+}
 :root{
     --primary: #212b38;
     --secondary: #37465B;
@@ -27,6 +32,8 @@
 html{
     font-family: 'conf';
     scroll-behavior: smooth;
+    width: 100%;
+    display: inline;
 }
 
 body{
@@ -133,8 +140,9 @@ img{
 
 .container{
     max-width: 1420px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    
 }
 /*--------end card------*/
 /*--- start nav ---*/
@@ -614,7 +622,14 @@ footer{
         background-color: transparent;
         color: #08C6AB;
         font-size: 2rem;
-        
+        display:block;
     }
     
+}
+
+/* max-width 330px */
+@media screen and (max-width: 330px){
+    .container{
+        
+    }
 }
