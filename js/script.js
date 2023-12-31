@@ -15,9 +15,17 @@ let typed = new Typed('.typed-text', {
     loop: true
   });
 
-  let menuBar = document.querySelector('.menu_bar');
-  let btn_menu = document.querySelector('.menu-button');
+  let abrir = document.querySelector('.abrir');
+  let cerrar = document.querySelector('.cerrar');
+  let visibilidad = document.querySelector('.menu_bar');
 
-  btn_menu.addEventListener('click', ()=>{
+  abrir.addEventListener('click', ()=>{
+    visibilidad.classList.add('visible');
     
+    abrir.style.display='none';
+  })
+
+  cerrar.addEventListener('click', ()=>{
+    visibilidad.classList.remove('visible');
+    abrir.style.display='block';
   })

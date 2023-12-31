@@ -575,9 +575,6 @@ footer{
 
 /* max-width 530px */
 @media screen and (max-width: 530px){
-    /* .nav-links{
-        display: none;
-    } */
     
     .menu_bar{
         position: absolute;
@@ -587,17 +584,37 @@ footer{
         top: 0;
         right: 0;
         padding: 1rem;
+
         width: auto;
         height: 100vh;
+        visibility: hidden;
         gap: 1rem;
-        
         background: linear-gradient(90deg, rgba(0, 0, 36, 0) 0%, rgb(0,212,255,0.1) 20%, rgba(2, 0, 36,0.9)100%);
+        align-items: end;
+        
+    }
+    .social-links-nav{
+        display: block;
     }
     .nav-links{
         flex-direction: column;
         gap: 1rem;
         
-        align-items: end;
+    }
+    .cerrar{
+        display:block;
+        background-color: transparent;
+        color: #08C6AB;
+        font-size: 2rem;
+        
+    }
+    .abrir{
+        margin-left: 85%;
+        visibility: visible;
+        background-color: transparent;
+        color: #08C6AB;
+        font-size: 2rem;
+        
     }
     
 }
