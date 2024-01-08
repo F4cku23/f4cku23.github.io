@@ -32,8 +32,7 @@
 html{
     font-family: 'conf';
     scroll-behavior: smooth;
-    width: 100%;
-    display: inline;
+    
 }
 
 body{
@@ -552,7 +551,7 @@ footer{
         display: none;
     }
     .social-links{
-        margin: 2rem 43% 0 43%;
+        margin: 2rem 35% 0 35%;
         display: flex;
         position:relative;
         justify-content: space-between;
@@ -571,6 +570,9 @@ footer{
     section{
         padding: 1rem 0;
     }
+    .social-links a{
+        width: 3rem;
+    }
 }
 
 /* max-width 600px */
@@ -578,11 +580,18 @@ footer{
     .header-container{
             margin-bottom: 0;
     }
+    .social-links{
+        margin: 2rem 30% 0 30%;
+        
+    }
+    .social-links a{
+        width: 4rem;
+    }
     
 }
 
 /* max-width 530px */
-@media screen and (max-width: 530px){
+@media screen and (min-width:330px) and (max-width: 530px){
     
     .menu_bar{
         position: absolute;
@@ -624,12 +633,14 @@ footer{
         font-size: 2rem;
         display:block;
     }
+     nav{
+        width: 100%;
+     }
     
-}
-
-/* max-width 330px */
-@media screen and (max-width: 330px){
-    .container{
-        
+    .portfolio-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .portfolio-projects{
+        margin: 1rem 0;
     }
 }
