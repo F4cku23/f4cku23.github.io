@@ -645,7 +645,7 @@ footer{
     }
 }
 
-@media screen and (min-width:330px){
+@media screen and (max-width:330px){
     html{
         max-width: 100vh;
     }
