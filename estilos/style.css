@@ -591,7 +591,7 @@ footer{
 }
 
 /* max-width 530px */
-@media screen and (min-width:330px) and (max-width: 530px){
+@media screen and (max-width: 530px){
     
     .menu_bar{
         position: absolute;
@@ -642,5 +642,11 @@ footer{
     }
     .portfolio-projects{
         margin: 1rem 0;
+    }
+}
+
+@media screen and (min-width:330px){
+    html{
+        max-width: 100vh;
     }
 }
