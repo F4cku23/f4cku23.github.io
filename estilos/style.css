@@ -341,7 +341,7 @@ header{
 /* skill */
 #skill{
     background-color: rgba(33, 43, 56, 0.9);
-    
+    margin: 2rem auto;
 }
 
 #skill h2{
