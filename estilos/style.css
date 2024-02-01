@@ -669,6 +669,9 @@ footer{
         top: 30px;
         box-shadow: 0 0 1rem var(--secondary);
     }
+    .social-links{
+        display: none;
+    }
 }
 
 @media screen and (max-width:330px){
