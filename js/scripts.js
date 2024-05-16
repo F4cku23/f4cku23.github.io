@@ -8,7 +8,7 @@
 // 
 
 var typed = new Typed('#typed-text', {
-    strings: ['Jr web developer PHP', 'Trainee Python | Django'],
+    strings: ['Trainee Python | Django', 'Jr web developer PHP'],
     typeSpeed: 75,
     backSpeed: 75,
     fadeOut: true,
