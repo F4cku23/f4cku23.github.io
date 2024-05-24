@@ -2814,6 +2814,28 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+/** btn CV **/
+.button:hover{
+  animation: pulsate 1s ease-in-out;
+  background-color:  var(--bs-btn-bg);
+}
+
+@keyframes pulsate{
+  0%{
+      box-shadow: 0 0 25px #3fbde0, 0 0 50px #79d7f1;
+  }
+}
+.button{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 50px;
+  border: 1px solid #64a19d;
+  border-radius: 10px;
+  background-color: var(--bs-btn-bg);
+}
+
+
 .btn:hover {
   color: var(--bs-btn-hover-color);
   background-color: var(--bs-btn-hover-bg);
@@ -11124,7 +11146,9 @@ body {
 }
 
 .parrafo_about{
+  margin-top: 1rem;
   width: 85% !important;
+  backdrop-filter: blur(10px) !important;  
 }
 
 #about{
@@ -11136,7 +11160,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
