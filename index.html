@@ -44,7 +44,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Paulo Nievas</h1>
-                        <h2 class="text-white">Soy <span id="typed-text">Jr web developer PHP</span></h2>
+                        <h2 class="text-white">Soy <span id="typed-text"></span></h2>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">En mi trabajo mas reciente tenia como tareas el Diseño de e-mails · Hojas de estilos en cascada (CSS) · WordPress · Adobe Photoshop · Mantenimiento Web · Desarrollo web · HTML5 · CSS3 · VisualStudio · Desarrollo web back end · PHP · Desarrollo Full Stack.</h2>
                         <a href="CV/Paulo_Facundo_Gaston_Nievas-CV_23.pdf" download="Paulo_Facundo_Gaston_Nievas-CV_23.pdf"><button type="button" class="btn btn-outline-secondary _btn">Descarga CV</button></a>
                     </div>
@@ -71,8 +71,12 @@
         </section>
         <!-- Projects-->
         
-        <section class="projects-section bg-light" id="projects">
+
+
+        <section class="projects-section" id="projects">
             <div class="container px-4 px-lg-5">
+
+
                 <div class="container px-4 px-lg-5 text-center">
                     <div class="row gx-4 gx-lg-5 justify-content-center">
                         <div class="col-lg-8 parrafo_about">
@@ -82,22 +86,125 @@
                     </div>
                     
                 </div>
-                <!-- Featured Project Row-->
+                <!-- Featured Project 
                 
+
                 
-                <!-- Project One Row-->
+                <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-12 text-center">
+                        <ul class="list-inline mb-5" id="portfolio-flters">
+                            <li class="mx-2 active nav-item" data-filter="*">Todos</li>
+                            <li class="mx-2 nav-item" data-filter=".php">PHP</li>
+                            <li class="mx-2 nav-item" data-filter=".wordpress">Wordpress</li>
+                            <li class="mx-2 nav-item" data-filter=".javascript">Javascript</li>
+                        </ul>
+                    </div>
+                </div>  Row-->
+                <div class="row g-4 portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item javascript wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/img/captura_img_.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <!-- <a class="btn btn-square btn-outline-light mx-1"  href="https://github.com/F4cku23/cifradorCesar.git" target="_blank" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> -->
+                                    <a class="btn btn-square btn-outline-light mx-1" href="https://github.com/F4cku23/cifradorCesar.git" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-black border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Cifrado de César</p>
+                                <h5 class="lh-base mb-0 txt-jus">El cifrado César es uno de los métodos de cifrado de texto más simples. Consiste en sustituir cada letra del texto por una letra separada por un número fijo de letras del alfabeto.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item wordpress wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/img/inproter.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <!-- <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> -->
+                                    <a class="btn btn-square btn-outline-light mx-1" href="https://inproter.com.pe" target="_blank"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-black border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">INPROTER.sac</p>
+                                <h5 class="lh-base mb-0 txt-jus">Sitio web creado para INPROTER, fundada por un grupo de Ingenieros Mecánicos Electricistas e Industriales en Arequipa, con el objetivo de realizar proyectos y trabajos de ingeniería.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/project.jpg" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-black border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">En proceso</p>
+                                <h5 class="lh-base mb-0">Proximamente...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/img/captura_img_.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-black border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
+                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/img/captura_img_.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-black border-5 border-light border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">General Carpentry</p>
+                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="rounded overflow-hidden">
+                            <div class="position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="assets/img/captura_img_.png" alt="">
+                                <div class="portfolio-overlay">
+                                    <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href=""><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                            <div class="bg-black border-top-0 p-4">
+                                <p class="text-primary fw-medium mb-2">Custom Carpentry</p>
+                                <h5 class="lh-base mb-0">Wooden Furniture Manufacturing And Remodeling</a>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+
+
+
+                
+                <!-- Project One Row
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6 img-opacity contenido_rel">
                         <a class="portfolio-box" href="https://github.com/F4cku23/cifradorCesar.git" target="_blank"><img class="img-fluid img_opa" src="assets/img/captura_img_.png" alt="..." />
                             <div class="text-white-50 texto">GitHub
                                  
                             </div>
-                       <!--  <div class="texto">
-                           <div class="text-white-50 color">Cifrado de César</div>
-                             <div class="prohect-action-aria">
-                                <button onclick="window.open('https://github.com/F4cku23/cifradorCesar.git', '_blank')" type="button" class="btn btn-outline-secondary _btn menu-button">GitHub</button>
-                            </div> 
-                        </div>-->
+                       
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -110,20 +217,15 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Project Two Row-->
+                </div>-->
+                <!-- Project Two Row
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6 img-opacity contenido_rel">
                         <a class="portfolio-box" href="https://inproter.com.pe" target="_blank"><img class="img-fluid img_opa" src="assets/img/inproter.png" alt="..." />
                             <div class="text-white-50 texto">Visitar sitio
                                 
                             </div>
-                       <!--  <div class="texto">
-                           <div class="text-white-50 color">Cifrado de César</div>
-                             <div class="prohect-action-aria">
-                                <button onclick="window.open('https://github.com/F4cku23/cifradorCesar.git', '_blank')" type="button" class="btn btn-outline-secondary _btn menu-button">GitHub</button>
-                            </div> 
-                        </div>-->
+                       
                         </a>
                     </div>
                     <div class="col-lg-6">
@@ -131,12 +233,12 @@
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">INPROTER.sac</h4>
-                                    <p class="mb-0 text-white-50">Sitio web creado para INPROTER, fundada por un grupo de Ingenieros Mecánicos Electricistas e Industriales en Arequipa,con el objetivo de realizar proyectos y trabajos de ingeniería.</p>
+                                    <p class="mb-0 text-white-50">Sitio web creado para INPROTER, fundada por un grupo de Ingenieros Mecánicos Electricistas e Industriales en Arequipa, con el objetivo de realizar proyectos y trabajos de ingeniería.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </section>   
 
@@ -335,7 +437,7 @@
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 2024 F4cku23</div></footer>
+        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 2024 Paulo Nievas</div></footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
@@ -343,11 +445,6 @@
         <script src="/js/typed.js-main/dist/typed.umd.js"></script>
         <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-        
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
