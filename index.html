@@ -41,6 +41,33 @@
     
         <!-- Tu script propio -->
         <script src="js/script.js" defer></script>
+
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Paulo Nievas",
+              "url": "https://f4cku23.github.io",
+              "image": "https://f4cku23.github.io/assets/og-image.png",
+              "sameAs": [
+                "https://github.com/f4cku23",
+                "https://linkedin.com/in/tu-perfil",
+                "https://twitter.com/tu-usuario"
+              ],
+              "jobTitle": "Desarrollador Web Full Stack Jr",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Freelance"
+              },
+              "description": "Portfolio personal de Paulo Nievas, desarrollador web especializado en tecnologías como JavaScript, Python, React y diseño web responsive.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "San Luis",
+                "addressCountry": "Argentina"
+              }
+            }
+            </script>
+            
     </head>
     
     <body id="page-top">
@@ -147,7 +174,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="assets/img/inproter.png" alt="">
                                 <div class="portfolio-overlay">
-                                    <!-- <a class="btn btn-square btn-outline-light mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> -->
+                                    <a class="btn btn-square btn-outline-light mx-1" href="assets/img/inproter.png" target="_blank" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href="https://inproter.com.pe" target="_blank"><i class="fa fa-link"></i> Ir a sitio</a>
                                 </div>
                             </div>
@@ -162,7 +189,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="/assets/img/guitarView.PNG" alt="">
                                 <div class="portfolio-overlay">
-                                    
+                                    <a class="btn btn-square btn-outline-light mx-1" href="assets/img/guitarView.png" target="_blank" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href="https://github.com/No-Country/C4-02-T" target="_blank"><i class="fa fa-link"></i> Github</a>
                                 </div>
                             </div>
@@ -178,7 +205,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="assets/img/form_2.png" alt="">
                                 <div class="portfolio-overlay">
-                                    <a class="btn btn-square btn-outline-light mx-1" href="assets/img/form_2.png" data-lightbox="portfolio" target="_blank"><i class="fa fa-eye"></i></a>
+                                    <a class="btn btn-square btn-outline-light mx-1" href="assets/img/form_2.png" target="_blank" data-lightbox="portfolio" target="_blank"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href="https://github.com/F4cku23/user-submission-notification" target="_blank"><i class="fa fa-link"></i> Github</a>
                                 </div>
                             </div>
@@ -193,7 +220,7 @@
                             <div class="position-relative overflow-hidden">
                                 <img class="img-fluid w-100" src="assets/img/proyectoFinal_coderhouse.png" alt="">
                                 <div class="portfolio-overlay">
-                                    <!-- <a class="btn btn-square btn-outline-light mx-1" href="assets/img/proyectoFinal_coderhouse.png" data-lightbox="portfolio" target="_blank"><i class="fa fa-eye"></i></a> -->
+                                    <a class="btn btn-square btn-outline-light mx-1" href="assets/img/proyectoFinal_coderhouse.png" target="_blank" data-lightbox="portfolio" target="_blank"><i class="fa fa-eye"></i></a>
                                     <a class="btn btn-square btn-outline-light mx-1" href="https://github.com/F4cku23/entrega1Nievas" target="_blank"><i class="fa fa-link"></i> Github</a>
                                 </div>
                             </div>
@@ -220,30 +247,24 @@
                     </div>
                 </div>
 
-
-
-                
-                <!-- Project One Row
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6 img-opacity contenido_rel">
-                        <a class="portfolio-box" href="https://github.com/F4cku23/cifradorCesar.git" target="_blank"><img class="img-fluid img_opa" src="assets/img/captura_img_.png" alt="..." />
-                            <div class="text-white-50 texto">GitHub
-                                 
-                            </div>
-                       
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Cifrado de César</h4>
-                                    <p class="mb-0 text-white-50">El cifrado César es uno de los métodos de cifrado de texto más simples. Consiste en sustituir cada letra del texto por una letra separada por un número fijo de letras del alfabeto.</p>
-                                </div>
+                <!-- Project One Row -->
+                <div class="col-lg-4 col-md-6 portfolio-item javascript wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded overflow-hidden">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="assets/img/soulriser_landing.png" alt="">
+                            <div class="portfolio-overlay">
+                                <a class="btn btn-square btn-outline-light mx-1"  href="assets/img/soulriser_landing.png" target="_blank" data-lightbox="portfolio"><i class="fa fa-eye"></i></a> 
+                                <a class="btn btn-square btn-outline-light mx-1" href="https://soulriser-band.github.io/soulriser" target="_blank"><i class="fa fa-link"></i> Github</a>
                             </div>
                         </div>
+                        <div class="bg-black border-5 border-light border-top-0 p-4">
+                            <p class="text-primary fw-medium mb-2">SOULRISER band - página web</p>
+                            <h5 class="lh-base mb-0 txt-jus">Soulriser es una banda de metal rock alternativo originaria de San Luis, Argentina. Nace el 16 de junio de 2022 con una visión clara: fusionar la potencia del metal con la expresividad del rock alternativo, bajo una propuesta conceptual y espiritual. Su nombre representa la elevación del alma y la búsqueda de trascendencia a través del arte sonoro.</h5>
+                        </div>
                     </div>
-                </div>-->
+                </div>
+
+
                 <!-- Project Two Row
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6 img-opacity contenido_rel">
