@@ -24,19 +24,6 @@ Soy **Paulo Nievas**, desarrollador web full stack de **San Luis, Argentina**, c
 - Google Fonts
 - [GitHub Pages](https://pages.github.com/) para el despliegue
 
-## 📁 Estructura del proyecto
-
-├── index.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── script.js
-├── assets/
-│ ├── code_.png
-│ └── og-image.png
-├── robots.txt
-├── sitemap.xml
-└── README.md
 
 
 📬 Contacto
